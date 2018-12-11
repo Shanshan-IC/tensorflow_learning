@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/2/23 15:08
 # @Author  : Shanshan Fu
-# @File    : 301_regression.py  :
+# @File    : 205_regression.py  :
 # @Contact : 33sharewithu@gmail.com
 # 参考 http://www.tensorfly.cn/tfdoc/tutorials/mnist_beginners.html
 import input_data

@@ -1,12 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2018/2/22 13:58
+# @Time    : 2018/12/10 10:45
 # @Author  : Shanshan Fu
-# @File    : example.py  :
+# @File    : 101_basic.py  :
 # @Contact : 33sharewithu@gmail.com
+
+
+
+from __future__ import print_function
+
+import tensorflow as tf
+
+
+##create a session
+hello = tf.constant('Hello, TensorFlow!')
+# Start tf session
+sess = tf.Session()
+# Run the op
+print(sess.run(hello))
+
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-import tensorflow as tf
 
 # 创建一个常量 op, 产生一个 1x2 矩阵. 这个 op 被作为一个节点
 # 加到默认图中.

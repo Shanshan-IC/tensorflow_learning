@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/2/23 14:28
 # @Author  : Shanshan Fu
-# @File    : 201_kmeans.py  :
+# @File    : 204_kmeans.py  :
 # @Contact : 33sharewithu@gmail.com
 
 
@@ -52,17 +52,4 @@ for i in range(1, num_steps + 1):
                          feed_dict={X: full_data_x})
     if i % 10 == 0 or i == 1:
         print("Step %i, Avg Distance: %f" % (i, d))
-
-
-
-
-
-
-
-
-
-
-
-
-
 

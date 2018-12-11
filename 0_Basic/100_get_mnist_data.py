@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/12/10 10:39
 # @Author  : Shanshan Fu
-# @File    : get_mnist_data.py  :
+# @File    : 100_get_mnist_data.py  :
 # @Contact : 33sharewithu@gmail.com
 
 ## data in tensorflow example input_data.py
